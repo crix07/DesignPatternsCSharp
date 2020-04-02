@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Factory.Interfaces;
+using System;
 
-namespace Factory
+namespace Factory.Models
 {
-    class DefaultConnection : IConnectionDB
+    public class DefaultConnection : IConnectionDB
     {
         public void Connect()
         {
@@ -12,7 +11,7 @@ namespace Factory
 
         }
 
-        public void Desconnect()
+        public void Disconnect()
         {
             Console.WriteLine($"desconnect ${GetType()}");
         }

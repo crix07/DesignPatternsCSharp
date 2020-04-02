@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Factory_And_AbstractFactory.Interfaces
+namespace Factory.Interfaces
 {
     public interface IConnectionREST
     {

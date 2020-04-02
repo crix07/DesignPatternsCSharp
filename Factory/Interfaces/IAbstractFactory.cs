@@ -1,6 +1,7 @@
-﻿using Factory;
+﻿using Factory.Enums;
+using Factory.Interfaces;
 
-namespace Factory_And_AbstractFactory.Interfaces
+namespace Factory.Interfaces
 {
     public interface IAbstractFactory
     {

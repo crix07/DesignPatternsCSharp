@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Factory
+namespace Factory.Interfaces
 {
     public interface IConnectionDB
     {

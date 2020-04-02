@@ -1,4 +1,4 @@
-﻿using Factory_And_AbstractFactory.Interfaces;
+﻿using Factory.Interfaces;
 using System;
 
 namespace Factory_And_AbstractFactory.ObjectsOfRest

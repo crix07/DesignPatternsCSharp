@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Factory.Interfaces;
+using System;
 
 namespace Factory_And_AbstractFactory.ObjectsOfRest
 {
-    class ConnectionRestBuy
+    class ConnectionRestBuy : IConnectionREST
     {
+        public void readURL(string URL)
+        {
+            Console.WriteLine($"restful service active ✌ {URL}");
+        }
     }
 }

@@ -1,25 +1,33 @@
-﻿
+﻿using Factory.Enums;
+using Factory.Interfaces;
+using Factory.Models;
 
-namespace Factory
+namespace Factory.Factories
 {
-    class ConnectDBFactory
+    class ConnectDBFactory : IAbstractFactory
     {
-        public IConnectionDB GetConnection(EnumConnection WhatObject)
+        public IConnectionDB GetDB(EnumConnectionDB WhatObject)
         {
-            if (WhatObject == EnumConnection.POSTGRES)
+            if (WhatObject == EnumConnectionDB.POSTGRES)
             {
                 return new PostGres();
             }
-            if (WhatObject == EnumConnection.SQLSERVER)
+            if (WhatObject == EnumConnectionDB.SQLSERVER)
             {
                 return new SQLServer();
             }
-            if (WhatObject == EnumConnection.MONGODB)
+            if (WhatObject == EnumConnectionDB.MONGODB)
             {
                 return new MongoDB();
             }
 
             return new DefaultConnection();
+        }
+
+
+        public IConnectionREST GetRest(string service)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

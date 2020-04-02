@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{2C36C440-147E-4367-A374-93270044CE48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory_And_AbstractFactory", "Factory\Factory_And_AbstractFactory.csproj", "{EB04DF42-51D9-43C4-BAD5-6768F54A7B60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory_And_AbstractFactory", "Factory\Factory_And_AbstractFactory.csproj", "{EB04DF42-51D9-43C4-BAD5-6768F54A7B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clone", "Clone\Clone.csproj", "{F6345412-E634-4E6D-924B-C76017BEB99B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EB04DF42-51D9-43C4-BAD5-6768F54A7B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB04DF42-51D9-43C4-BAD5-6768F54A7B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB04DF42-51D9-43C4-BAD5-6768F54A7B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6345412-E634-4E6D-924B-C76017BEB99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6345412-E634-4E6D-924B-C76017BEB99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6345412-E634-4E6D-924B-C76017BEB99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6345412-E634-4E6D-924B-C76017BEB99B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

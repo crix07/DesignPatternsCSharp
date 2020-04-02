@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Factory.Interfaces;
+using System;
 
-namespace Factory
+namespace Factory.Models
 {
-    class PostGres : IConnectionDB
+    public class PostGres : IConnectionDB
     {
         public void Connect()
         {

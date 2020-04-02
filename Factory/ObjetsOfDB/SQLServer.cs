@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Factory.Interfaces;
+using System;
 
-namespace Factory
+namespace Factory.Models
 {
-    class SQLServer : IConnectionDB
+    public class SQLServer : IConnectionDB
     {
         public void Connect()
         {

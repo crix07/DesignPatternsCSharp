@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Factory.Interfaces;
+using System;
 
-namespace Factory
+namespace Factory.Models
 {
-    class MongoDB : IConnectionDB
+    public class MongoDB : IConnectionDB
     {
         public void Connect()
         {
